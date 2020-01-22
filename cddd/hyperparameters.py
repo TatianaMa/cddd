@@ -3,7 +3,8 @@
 import os
 import json
 import tensorflow as tf
-DEFAULT_DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), 'data'))
+# DEFAULT_DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), 'data'))
+DEFAULT_DATA_DIR = "/mnt/c/Users/kxkr044/git/cddd/cddd/data"
 
 def add_arguments(parser):
     """Helper function to fill the parser object.
